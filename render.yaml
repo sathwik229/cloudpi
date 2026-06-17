@@ -1,0 +1,23 @@
+# Render blueprint — deploys the CloudPi backend, which also serves the frontend.
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: cloudpi
+    runtime: node
+    plan: free
+    rootDir: backend          # run install/start inside backend/ (frontend/ is a sibling, still checked out)
+    buildCommand: npm install
+    startCommand: node src/server.js
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY        # Render runs behind a proxy; needed for correct client IPs / rate-limiting
+        value: "1"
+      # PORT is injected by Render automatically.
+      # Optional email notifications — set these in the Render dashboard (do NOT commit secrets):
+      # - key: SMTP_HOST
+      # - key: SMTP_USER
+      # - key: SMTP_PASS
+      # - key: LEADS_NOTIFY_TO
