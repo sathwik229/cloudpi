@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--====== Title ======-->
-        <title>CloudPi - Sass Landing HTML Template</title>
+        <title>Case Study Details — CloudPi</title>
         <!--====== Favicon Icon ======-->
         <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
         <!--====== FontAwesome css ======-->
@@ -32,7 +32,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/premium.css?v=3">
+    <link rel="stylesheet" href="assets/css/premium.css?v=14">
 </head>
     <body>
         <!--====== Start Preloader ======-->
@@ -63,12 +63,12 @@
                 <div class="container">
                     <div class="primary-menu">
                         <div class="site-branding">
-                            <a href="index.html" class="brand-logo"><img src="assets/images/logo/logo-4.png" alt="Site Logo"></a>
+                            <a href="index.html" class="brand-logo"><img src="assets/images/logo/logo-1.png" alt="CloudPi"></a>
                         </div>
                         <div class="nav-menu nav-ml-auto">
                             <!-- Navbar logo -->
                             <div class="sidebar-logo">
-                                <a href="index.html" class="brand-logo"><img src="assets/images/logo/logo-3.png" alt="Site Logo"></a>
+                                <a href="index.html" class="brand-logo"><img src="assets/images/logo/logo-3.png" alt="CloudPi"></a>
                             </div>
                             <!-- Navbar Close -->
                             <div class="navbar-close"><i class="far fa-times"></i></div>
@@ -76,43 +76,58 @@
                             <nav class="main-menu">
                                 <ul>
                                     <li class="menu-item"><a href="index.html">Home</a></li>
-                                    <li class="menu-item has-children"><a href="#">Services</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
+                                    <li class="menu-item has-mega"><a href="services.html">Platform</a>
+                                        <div class="mega-menu">
+                                            <div class="mega-grid mega-grid--3">
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-bolt"></i></span><div><h6>Platform Capabilities</h6><p>Full-stack cloud control layer</p></div></a>
+                                                <a class="mega-card" href="index.html#integrations"><span class="mega-ic"><i class="fas fa-diagram-project"></i></span><div><h6>Integrations</h6><p>Connect 200+ cloud services</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-layer-group"></i></span><div><h6>Intelligent Workflows</h6><p>Event-driven task scheduling</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-cloud"></i></span><div><h6>Multi-Cloud Cost</h6><p>Unified cost visibility</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-shield-alt"></i></span><div><h6>Policy Engine</h6><p>Compliance at enterprise scale</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-dollar-sign"></i></span><div><h6>Cost Allocation</h6><p>Tag-based allocation &amp; chargeback</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-chart-bar"></i></span><div><h6>Billing Analysis</h6><p>Deep-dive usage anomalies</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-compress"></i></span><div><h6>Rightsizing</h6><p>AI-powered resource sizing</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-chart-pie"></i></span><div><h6>Dashboards &amp; Reports</h6><p>Real-time custom reporting</p></div></a>
+                                            </div>
+                                        </div>
                                     </li>
-                                    <li class="menu-item has-children"><a href="#">Pages</a>
+                                    <li class="menu-item has-mega"><a href="about.html">Solutions</a>
+                                        <div class="mega-menu mega-menu--sm">
+                                            <div class="mega-grid mega-grid--2">
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-user-tie"></i></span><div><h6>Solutions by Role</h6><p>Custom tools designed for FinOps, Engineering, and Finance.</p></div></a>
+                                                <a class="mega-card" href="services.html"><span class="mega-ic"><i class="fas fa-users"></i></span><div><h6>Solutions by Persona</h6><p>Aligned with executives, managers, and system operators.</p></div></a>
+                                                <a class="mega-card" href="about.html"><span class="mega-ic"><i class="fas fa-question"></i></span><div><h6>Why CloudPi</h6><p>Four core challenges, four answers, one governed system.</p></div></a>
+                                            </div>
+                                            <span class="mega-badge"><i class="fas fa-shield-alt"></i> Governed FinOps at enterprise scale</span>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item has-children"><a href="about.html">Company</a>
                                         <ul class="sub-menu">
                                             <li><a href="about.html">About Us</a></li>
-                                            <li class="has-children"><a href="portfolio.html">Portfolio</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                    <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                                </ul>
-                                            </li>
-                                            
                                             <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
-                                            <li><a href="faq.html">Faq</a></li>
+                                            <li><a href="portfolio.html">Case Studies</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item has-children"><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
+                                    <li class="menu-item"><a href="contact.html">Pricing</a></li>
+                                    <li class="menu-item has-mega"><a href="blog-standard.html">Resources</a>
+                                        <div class="mega-menu mega-menu--sm">
+                                            <div class="mega-grid mega-grid--2">
+                                                <a class="mega-card" href="blog-standard.html"><span class="mega-ic"><i class="fas fa-book"></i></span><div><h6>Documentation</h6><p>User guides, configurations, and reference manuals.</p></div></a>
+                                                <a class="mega-card" href="faq.html"><span class="mega-ic"><i class="fas fa-question-circle"></i></span><div><h6>FAQ</h6><p>Frequently asked questions and support notes.</p></div></a>
+                                                <a class="mega-card" href="blog-standard.html"><span class="mega-ic"><i class="fas fa-video"></i></span><div><h6>Videos</h6><p>Walkthroughs, demos, and feature highlight videos.</p></div></a>
+                                                <a class="mega-card" href="portfolio-details.html"><span class="mega-ic"><i class="fas fa-file-alt"></i></span><div><h6>AWS S3 Cost Surge</h6><p>A deep-dive cost reduction case study.</p></div></a>
+                                                <a class="mega-card" href="portfolio-details.html"><span class="mega-ic"><i class="fas fa-briefcase"></i></span><div><h6>Freight Manufacturer</h6><p>Enterprise scaling and infrastructure savings.</p></div></a>
+                                                <a class="mega-card" href="portfolio-details.html"><span class="mega-ic"><i class="fas fa-chart-line"></i></span><div><h6>API Cost Tracking</h6><p>Anomaly detection and tracking cost leakages.</p></div></a>
+                                            </div>
+                                        </div>
                                     </li>
-                                    <li class="menu-item"><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
                         <div class="header-right-nav">
                             <ul class="d-inline-flex align-items-center">
-                                <li class="search-item"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
-                                <li class="nav-button"><a href="contact.html" class="main-btn bordered-btn">Login</a></li>
-                                <li class="nav-button"><a href="contact.html" class="main-btn">Start Free Trial</a></li>
+                                <li class="nav-button"><a href="contact.html" class="main-btn">Book a Demo <i class="fas fa-arrow-right"></i></a></li>
                                 <li class="nav-toggle-btn">
                                     <div class="navbar-toggler">
                                         <span></span>
@@ -138,10 +153,10 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="page-title-text text-center">
-                                <h1 class="title">Portfolio Details</h1>
+                                <h1 class="title">Case Study Details</h1>
                                 <ul class="breadcrumbs-link">
                                     <li><a href="index.html">Home</a></li>
-                                    <li class="active">Portfolio Details</li>
+                                    <li class="active">Case Studies</li>
                                 </ul>
                             </div>
                         </div>
@@ -159,9 +174,9 @@
                     <div class="portfolio-content" data-aos="fade-up" data-aos-delay="30">
                         <div class="row">
                             <div class="col-lg-8">
-                                <h3 class="title">Software Development</h3>
-                                <p>Aliquam sodales tellus sit amet nunc rutrum, quis ultrices sem auctor. Donec egestas, tellus nec venenatis tristique, metus justo hendrerit massa, eget accumsan ante ante et elit. Nam accumsan faucibus ornare. Nam neque ex, ullamcorper sed arcu eu, </p>
-                                <p>pellentesque varius massa. Pellentesque at bibendum elit. Suspendisse at lobortis dolor, et hendrerit eros. Proin interdum vitae libero eu sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</p>
+                                <h3 class="title">Cutting multi-cloud spend 30% with automated FinOps governance</h3>
+                                <p>A global enterprise running production workloads across AWS, Azure and GCP was struggling with fragmented billing, untagged resources, and no clear accountability for cloud spend. Finance and engineering teams worked from conflicting numbers, monthly invoices arrived without context, and runaway costs were only discovered after the fact. Leadership needed a single, trustworthy view of where every dollar was going — and a way to stop overruns before they happened.</p>
+                                <p>CloudPi delivered penny-level cost visibility across all three providers, automated guardrails that enforce budgets and policy in real time, and tag governance that restored accurate allocation even for previously untagged resources. Within two quarters the organization cut cloud spend by roughly 30%, improved cost-allocation accuracy to the team and product level, and brought its multi-cloud estate into continuous compliance.</p>
                                 <div class="row">
                                     <div class="col-md-6 col-sm-12">
                                         <div class="block-check-item d-flex mb-35">
@@ -169,8 +184,8 @@
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                <h5>Mobile Optimization</h5>
-                                                <p>Aliquam sodales tellus sit amet nunc rutrum quis </p>
+                                                <h5>Cost Visibility</h5>
+                                                <p>Unified, penny-level spend across AWS, Azure and GCP.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -180,8 +195,8 @@
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                <h5>Marketing Automation</h5>
-                                                <p>Aliquam sodales tellus sit amet nunc rutrum quis </p>
+                                                <h5>Automated Guardrails</h5>
+                                                <p>Continuous policy enforcement that prevents overruns.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -191,8 +206,8 @@
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                <h5>Robust Analytics</h5>
-                                                <p>Aliquam sodales tellus sit amet nunc rutrum quis </p>
+                                                <h5>Tag Governance</h5>
+                                                <p>Accurate allocation even when resources are untagged.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -202,8 +217,8 @@
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                <h5>Third-party Integrations</h5>
-                                                <p>Aliquam sodales tellus sit amet nunc rutrum quis </p>
+                                                <h5>Multi-Cloud Billing</h5>
+                                                <p>Chargeback, showback and savings-plan optimization.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -215,15 +230,15 @@
                                     <ul>
                                         <li>
                                             <h6>Date :</h6>
-                                            <p>01 January, 2022</p>
+                                            <p>12 March, 2026</p>
                                         </li>
                                         <li>
                                             <h6>Category</h6>
-                                            <a href="#">Software development</a>
+                                            <a href="#">Cloud Cost Optimization</a>
                                         </li>
                                         <li>
                                             <h6>Client</h6>
-                                            <p>Itech Agency</p>
+                                            <p>Enterprise FinOps (confidential)</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -249,8 +264,8 @@
                             <img src="assets/images/portfolio/img-1.jpg" alt="portfolio image">
                             <div class="portfolio-hover">
                                 <div class="hover-content">
-                                    <h3 class="title"><a href="portfolio-details.html">Software Development</a></h3>
-                                    <p>Development</p>
+                                    <h3 class="title"><a href="portfolio-details.html">Tag governance at scale</a></h3>
+                                    <p>Cost Allocation</p>
                                 </div>
                             </div>
                         </div>
@@ -260,8 +275,8 @@
                             <img src="assets/images/portfolio/img-2.jpg" alt="portfolio image">
                             <div class="portfolio-hover">
                                 <div class="hover-content">
-                                    <h3 class="title"><a href="portfolio-details.html">Software Development</a></h3>
-                                    <p>Development</p>
+                                    <h3 class="title"><a href="portfolio-details.html">Automating Reserved Instance coverage</a></h3>
+                                    <p>Savings Plans</p>
                                 </div>
                             </div>
                         </div>
@@ -271,8 +286,8 @@
                             <img src="assets/images/portfolio/img-3.jpg" alt="portfolio image">
                             <div class="portfolio-hover">
                                 <div class="hover-content">
-                                    <h3 class="title"><a href="portfolio-details.html">Software Development</a></h3>
-                                    <p>Development </p>
+                                    <h3 class="title"><a href="portfolio-details.html">Event-driven cost remediation</a></h3>
+                                    <p>Automation </p>
                                 </div>
                             </div>
                         </div>
@@ -282,8 +297,8 @@
                             <img src="assets/images/portfolio/img-4.jpg" alt="portfolio image">
                             <div class="portfolio-hover">
                                 <div class="hover-content">
-                                    <h3 class="title"><a href="portfolio-details.html">Software Development</a></h3>
-                                    <p>Development</p>
+                                    <h3 class="title"><a href="portfolio-details.html">Multi-cloud budget guardrails</a></h3>
+                                    <p>Governance</p>
                                 </div>
                             </div>
                         </div>
@@ -302,7 +317,7 @@
                                 <div class="site-branding">
                                     <a href="index.html"><img src="assets/images/logo/logo-2.png" alt="Site Logo"></a>
                                 </div>
-                                <p>Build a modern and creative website with crealand</p>
+                                <p>Optimize smarter, govern better, and save faster across AWS, Azure and GCP with CloudPi.</p>
                                 <ul class="social-link">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -338,7 +353,7 @@
                             <div class="widget newsletter-widget mb-40" data-aos="fade-up" data-aos-delay="60">
                                 <h4 class="widget-title">Newsletter</h4>
                                 <div class="newsletter-content">
-                                    <p>Integer semper ultricies tristique. Vestibulum porta </p>
+                                    <p>Get FinOps insights and cloud savings tips in your inbox.</p>
                                     <form>
                                         <div class="form_group">
                                             <input type="email" class="form_control" placeholder="Email address" name="email" required>
@@ -354,7 +369,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="text text-center">
-                                <p>&copy; Copyright 2022 CloudPi All Rights Reserved</p>
+                                <p>&copy; Copyright 2026 CloudPi. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
